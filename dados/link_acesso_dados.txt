@@ -16,7 +16,6 @@ INSTRUÇÕES:
 
 4. Substitua o placeholder abaixo pelo link de compartilhamento:
 
->>> COLE O LINK AQUI <<<
-[TODO] https://drive.google.com/...
+https://drive.google.com/drive/folders/1IzUlHcLJuneSwA6k4OuDT7K7czKGmoIF?usp=sharing
 
 ============================================================
