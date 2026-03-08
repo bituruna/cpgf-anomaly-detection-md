@@ -9,4 +9,4 @@ hdbscan>=0.8
 plotly>=5.14
 scipy>=1.10
 ipython>=8.0
-umap-learn
+umap-learn>=0.5.11
