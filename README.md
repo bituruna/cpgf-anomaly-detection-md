@@ -5,6 +5,9 @@
 **Projeto:** Análise e Detecção de Anomalias em Gastos Públicos
 **Base de dados:** Portal da Transparência — Cartão de Pagamento do Governo Federal (CPGF)
 
+**Repositório do projeto:**
+https://github.com/bituruna/cpgf-anomaly-detection-md.git
+
 ---
 
 # Descrição do Projeto
@@ -210,7 +213,7 @@ drive.mount('/content/drive')
 
 # Resultados Esperados
 
-Ao final do pipeline, o projeto produz no arquivo "./dados/relatorio_auditoria_final.csv":
+Ao final do pipeline, o projeto produz no arquivo `./dados/relatorio_auditoria_final.csv`:
 
 * CPF's dos portadores com comportamento anômalo
 * Base de dados limpa e padronizada
@@ -218,7 +221,7 @@ Ao final do pipeline, o projeto produz no arquivo "./dados/relatorio_auditoria_f
 * Score de anomalia para cada registro
 * Ranking de possíveis casos críticos para auditoria
 
-O sistema funciona como uma **ferramenta exploratória de apoio à fiscalização de gastos públicos**, buscando evidenciar quais foram os portadoeres com o comportamento mais anômalo dos órgãos com maior volume de transações.
+O sistema funciona como uma **ferramenta exploratória de apoio à fiscalização de gastos públicos**, buscando evidenciar quais foram os portadores com o comportamento mais anômalo dos órgãos com maior volume de transações.
 
 ---
 
