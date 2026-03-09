@@ -78,7 +78,11 @@ cpgf-analise-anomalias/
 │   └── 03_pos_processamento.ipynb
 ```
 
-Após adicionar os arquivos na pasta `datasets`, os notebooks poderão acessar os dados normalmente.
+⚠️ Importante:
+Os notebooks dependem desses arquivos para executar o pipeline de análise.
+Se a pasta datasets/ estiver vazia, o código não conseguirá carregar os dados.
+
+Após adicionar os arquivos, o projeto poderá ser executado normalmente.
 
 ---
 
