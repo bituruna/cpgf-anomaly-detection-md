@@ -38,6 +38,8 @@ cpgf-analise-anomalias/
 │   └── 03_pos_processamento.ipynb
 │
 ├── relatorio/                             # Relatório final do projeto
+│   ├── Relatório Projeto Final MD.pdf
+│   └── referencias/                       # Artigos científicos e materiais de referência utilizados
 │
 ├── README.md
 └── requirements.txt
@@ -213,7 +215,13 @@ drive.mount('/content/drive')
 
 # Resultados Esperados
 
-Ao final do pipeline, o projeto produz no arquivo `./dados/relatorio_auditoria_final.csv`:
+Ao final do pipeline, o projeto produz no arquivo:
+
+```
+./dados/relatorio_auditoria_final.csv
+```
+
+Este arquivo contém:
 
 * CPF's dos portadores com comportamento anômalo
 * Base de dados limpa e padronizada
@@ -222,6 +230,24 @@ Ao final do pipeline, o projeto produz no arquivo `./dados/relatorio_auditoria_f
 * Ranking de possíveis casos críticos para auditoria
 
 O sistema funciona como uma **ferramenta exploratória de apoio à fiscalização de gastos públicos**, buscando evidenciar quais foram os portadores com o comportamento mais anômalo dos órgãos com maior volume de transações.
+
+---
+
+# Relatório Acadêmico
+
+O relatório completo do projeto pode ser encontrado em:
+
+```
+relatorio/Relatório Projeto Final MD.pdf
+```
+
+Nesta pasta também está disponível a subpasta:
+
+```
+relatorio/referencias/
+```
+
+que contém os **artigos científicos e materiais utilizados como base teórica para o desenvolvimento do projeto**.
 
 ---
 
